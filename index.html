@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Responsive Image Gallery</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>Image Gallery</h1>
+
+  <div class="filter-buttons">
+    <button data-filter="all">All</button>
+    <button data-filter="nature">Nature</button>
+    <button data-filter="animals">Animals</button>
+    <button data-filter="architecture">Architecture</button>
+    <button data-filter="bgmi">Bgmi</button>
+    <button data-filter="world">World</button>
+    <button data-filter="shiva">Shiva</button>
+    <button data-filter="picture">Picture</button>
+    <button data-filter="image">Image</button>
+    <button data-filter="bird">Bird</button>
+    <button data-filter="analysis">Analysis</button>   
+    <button data-filter="building">Building</button>  
+    </div>
+
+  <div class="gallery">
+    <div class="image" data-category="nature">
+      <img src="download.jpeg" alt="Nature 1" />
+    </div>
+    <div class="image" data-category="animals">
+      <img src="in.jpeg" alt="Animal 1" />
+    </div>
+    <div class="image" data-category="architecture">
+      <img src="building.jpeg" alt="Architecture 1" />
+    </div>
+    <div class="image" data-category="Bgmi">
+        <img src="bgmi.jpeg" alt="Bgmi 1">
+    </div>
+    <div class="image" data-category="world">
+        <img src="world.jpeg" alt="World 1">
+        </div>
+    </div>
+    <div class="image" data-category="shiva">
+        <img src="shiva.jpeg" alt="Shiva 1">
+        </div>
+    </div>
+    <div class="image" data-category="picture">
+        <img src="picture.jpeg" alt="Picture 1">
+        </div>
+    </div>
+     <div class="image" data-category="image">
+        <img src="images.jpeg" alt="Image 1">
+        </div>
+    </div>
+     <div class="image" data-category="bird">
+        <img src="bird.jpeg" alt="Bird 1">
+        </div>
+    </div>
+     <div class="image" data-category="analysis">
+        <img src="Analysis.jpeg" alt="Analysis 1">
+        </div>
+    </div>
+     <div class="image" data-category="building">
+        <img src="" alt="Building 1">
+        </div>
+    </div>
+  <div id="lightbox" class="lightbox hidden">
+    <span id="closeBtn">&times;</span>
+    <img id="lightboxImg" src="" alt="Large View" />
+    <div class="nav">
+      <span id="prev">&#10094;</span>
+      <span id="next">&#10095;</span>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
